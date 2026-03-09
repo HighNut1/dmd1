@@ -116,7 +116,7 @@ EXTRACTORS = {
         FixedLengthExtractorLoader(
             "DeepPrint_TexMinu_512",
             "DeepPrint (texture and minutia branch, 512 dims)",
-            lambda: get_DeepPrint_TexMinu(2000, 256),
+            lambda: get_DeepPrint_TexMinu(8000, 256),
         ),
         FixedLengthExtractorLoader(
             "DeepPrint_LocTex_512",
